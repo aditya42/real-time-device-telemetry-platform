@@ -172,10 +172,6 @@ The local stack uses MinIO so the entire repository is runnable without an AWS a
 
 For a production deployment, replace local Kafka with Amazon MSK/MSK Serverless, PostgreSQL with Amazon RDS/Aurora PostgreSQL, and run the Spark job on EMR Serverless, Glue streaming, or EMR on EKS. See [`docs/aws-production.md`](docs/aws-production.md).
 
-## Resume-ready positioning
-
-See [`docs/resume-bullets.md`](docs/resume-bullets.md) for defensible project bullets and a recommended GitHub description. Do **not** claim benchmark numbers until you run `make benchmark` on your machine and record the results.
-
 ## License
 
 MIT
