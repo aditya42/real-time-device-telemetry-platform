@@ -1,0 +1,11 @@
+apiVersion: 1
+providers:
+  - name: Telemetry
+    orgId: 1
+    folder: Device Telemetry
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards
